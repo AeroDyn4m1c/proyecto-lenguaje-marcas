@@ -1,0 +1,111 @@
+{
+  "empresa": {
+    "nombre": "Molinari-Auto-ReSell",
+    "CIF": "B12345678",
+    "provincia": "Castellon",
+    "año": 2026
+  },
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Pastillas de freno",
+      "categoria": "Frenos",
+      "marca": "Bosch",
+      "precio": 39.99,
+      "stock": 100,
+      "disponible": true,
+      "fechaEntrada": "2026-02-01"
+    },
+    {
+      "id": 2,
+      "nombre": "Disco de freno",
+      "categoria": "Frenos",
+      "marca": "Brembo",
+      "precio": 59.99,
+      "stock": 80,
+      "disponible": true,
+      "fechaEntrada": "2026-03-01"
+    },
+    {
+      "id": 3,
+      "nombre": "Filtro de aceite",
+      "categoria": "Filtros",
+      "marca": "Mann Filter",
+      "precio": 8.99,
+      "stock": 300,
+      "disponible": true,
+      "fechaEntrada": "2026-03-01"
+    },
+    {
+      "id": 4,
+      "nombre": "Filtro de aire",
+      "categoria": "Filtros",
+      "marca": "Bosch",
+      "precio": 12.99,
+      "stock": 0,
+      "disponible": false,
+      "fechaEntrada": "2026-10-01"
+    },
+    {
+      "id": 5,
+      "nombre": "Filtro de combustible",
+      "categoria": "Filtros",
+      "marca": "Mahle",
+      "precio": 14.99,
+      "stock": 150,
+      "disponible": true,
+      "fechaEntrada": "2026-12-01"
+    },
+    {
+      "id": 6,
+      "nombre": "Batería 12V",
+      "categoria": "Baterías",
+      "marca": "Varta",
+      "precio": 95.99,
+      "stock": 45,
+      "disponible": true,
+      "fechaEntrada": "2026-05-01"
+    },
+    {
+      "id": 7,
+      "nombre": "Amortiguador",
+      "categoria": "Suspensión",
+      "marca": "Monroe",
+      "precio": 65.99,
+      "stock": 60,
+      "disponible": true,
+      "fechaEntrada": "2026-07-01"
+    },
+    {
+      "id": 8,
+      "nombre": "Correa de distribución",
+      "categoria": "Motor",
+      "marca": "Gates",
+      "precio": 42.99,
+      "stock": 0,
+      "disponible": false,
+      "fechaEntrada": "2026-01-01"
+    },
+    {
+      "id": 9,
+      "nombre": "Bujías",
+      "categoria": "Motor",
+      "marca": "NGK",
+      "precio": 6.99,
+      "stock": 500,
+      "disponible": true,
+      "fechaEntrada": "2026-03-01"
+    },
+    {
+      "id": 10,
+      "nombre": "Líquido refrigerante",
+      "categoria": "Fluidos",
+      "marca": "Castrol",
+      "precio": 18.99,
+      "stock": 200,
+      "disponible": true,
+      "fechaEntrada": "2026-11-01"
+    }
+
+  ]
+}

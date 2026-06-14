@@ -1,0 +1,152 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+a:hover {
+    color: #b1e6f3;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-list {
+    font-size: 18px;
+    display: flex;
+}
+
+.header-list-flex {
+    margin: 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 50px;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+#stock-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.info-item {
+    width: 150px;
+    border: 1px solid #1F2937;
+    border-radius: 10px;
+}
+
+.texto {
+    text-align: center;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+.parte-consultar-inv {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.texto-consultar-inv {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    width: 20%;
+    margin-bottom: 50px;
+}
+
+.boton-consultar {
+    align-self: center;
+    color: #F9FAF8;
+    font-size: 16px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    outline-style: solid;
+    border-style: none;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+}
+
+.resultado-producto {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.texto-calculo-precio {
+    font-size: 18px;
+    font-style: italic;
+    color: #1F2937;
+    margin-top: 100px;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+footer {
+    background-color: #1F2937;
+    padding: 30px;
+}
+
+.footer-texto {
+    color: #E5E7EB;
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+{
+  "type": "object",
+  "properties": {
+    "empresa": {
+      "type": "object",
+      "properties": {
+        "nombre": {
+          "type": "string"
+        },
+        "CIF": {
+          "type": "string"
+        },
+        "provincia": {
+          "type": "string"
+        },
+        "año": {
+          "type": "number"
+        }
+      },
+      "required": ["nombre", "CIF", "provincia"]
+    },
+    "productos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "nombre": {
+            "type": "string"
+          },
+          "categoria": {
+            "type": "string"
+          },
+          "marca": {
+            "type": "string"
+          },
+          "precio": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "stock": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "disponible": {
+            "type": "boolean"
+          },
+          "fechaEntrada": {
+            "type": "string",
+            "format": "date"
+          }
+        },
+        "required": ["nombre", "categoria", "fechaEntrada"]
+      }
+    }
+  },
+  "required": ["empresa", "productos"]
+}
