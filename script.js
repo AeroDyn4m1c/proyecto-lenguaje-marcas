@@ -173,7 +173,7 @@ linkStock.addEventListener('click', () => {
     }
   }
 
-  if (productosStockMenor === '') {
+  if (productosStockMenor.length > 0) {
     alert(`Productos con menos stock:
     ${productosStockMenor}`);
   } else {
